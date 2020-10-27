@@ -41,7 +41,7 @@ const NotFoundPage = () => (
       <Styled404Text>
         4<SmileyDead />4
       </Styled404Text>
-      <StyledDescription>Sorry, we couldn't find the page you were looking for.</StyledDescription>
+      <StyledDescription>Sorry, we couldn&apos;t find the page you were looking for.</StyledDescription>
       <TextLink label="Take me home" link="/" />
     </Styled404Section>
   </Layout>

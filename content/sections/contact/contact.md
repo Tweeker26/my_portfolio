@@ -1,7 +1,7 @@
 ---
-phone: '+49 1234 5678910'
-email: 'maxmustermann@gmail.com'
-address: 'Friesenstr. 123, Berlin, Germany'
+phone: '+7 928 1700347'
+email: 'ivanwin26@gmail.com'
+address: 'Petrovskaya 666, Taganrog, Russia'
 ---
 
 Lorem ipsum dolor sit amet, consetetur sadipscing elitr,

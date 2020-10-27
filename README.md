@@ -4,9 +4,6 @@
 ![GitHub contributors](https://img.shields.io/github/contributors/knochenmark/gatsby-starter-level-2.svg)
 ![GitHub top language](https://img.shields.io/github/languages/top/knochenmark/gatsby-starter-level-2.svg)
 
-<p align="center">
-  <img alt="Level 2" src="./src/assets/logo.svg" width="140" />
-</p>
 <h1 align="center">
   Gatsby Starter Portfolio: Level 2
 </h1>
