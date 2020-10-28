@@ -1,35 +1,3 @@
-[![Build Status](https://travis-ci.com/Knochenmark/gatsby-starter-level-2.svg?branch=master)](https://travis-ci.com/Knochenmark/gatsby-starter-level-2)
-[![GitHub issues](https://img.shields.io/github/issues/knochenmark/gatsby-starter-level-2.svg)](https://github.com/Knochenmark/gatsby-starter-level-2/issues)
-[![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed/knochenmark/gatsby-starter-level-2.svg)](https://github.com/Knochenmark/gatsby-starter-level-2/pulls)
-![GitHub contributors](https://img.shields.io/github/contributors/knochenmark/gatsby-starter-level-2.svg)
-![GitHub top language](https://img.shields.io/github/languages/top/knochenmark/gatsby-starter-level-2.svg)
-
-<h1 align="center">
-  Gatsby Starter Portfolio: Level 2
-</h1>
-
-<h4>
-  A minimalistic, responsive and easily configurable <a href="https://github.com/gatsbyjs/gatsby" target="_blank">Gatsby</a> starter that will help to bring your portfolio to the next level.
-</h4>
-
-That's why we like to call our starter **Level 2** or short **LvL2**. The starter comes with several prepared info sections for your portfolio that can be easily configured with the main Gatsby configuration files. For content creation we are using **Markdown** files with Frontmatter attributes that can be easily edited or created.
-
-# Table of Contents
-
-- [Quick Start](#quick-start)
-- [Features](#features)
-- [Customize](#customize)
-  - [Gatsby Configuration](#gatsby-configuration)
-  - [Change the Theme](#change-the-theme)
-  - [Icons](#icons)
-    - [Navigation](#navigation)
-    - [Social](#social)
-- [Content Creation](#content-creation)
-  - [Creating Blog Posts](#creating-blog-posts)
-    - [Frontmatter for blog posts](#frontmatter-for-blog-posts)
-  - [Creating Projects](#creating-projects)
-    - [Frontmatter for projects](#frontmatter-for-projects)
-
 # Quick start
 
 1.  **Create a Gatsby site.**
@@ -80,7 +48,7 @@ That's why we like to call our starter **Level 2** or short **LvL2**. The starte
 ## Gatsby Configuration
 
 To make it easy for you we made sure you can configure as much as possible with the `gatsby-config.js` already.
-All you have to do is change the relevant values. For reference you can find an overview of the config below:
+All you have to do is change the relevant values. For reference, you can find an overview of the config below:
 
 ```js
 siteMetadata: {
@@ -187,7 +155,3 @@ The frontmatter information for each blog post is structured as following:
 ---
 
 Followed by the actual Project description in Markdown.
-
-## Editing Section information
-
-To be added

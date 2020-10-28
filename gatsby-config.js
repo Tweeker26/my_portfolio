@@ -5,8 +5,8 @@ module.exports = {
     titleTemplate: '%s · Level 2',
     image: '/images/logo.png',
     author: 'Ivan Vinogradov',
-    description: 'Gatsby starter to quickly setup your portfolio and boost it to the next level.',
-    url: 'https://knochenmark.github.io',
+    description: 'Portfolio with Gatsby',
+    url: 'https://github.com/Tweeker26/my_portfolio',
     paginationPageSize: 4, // Amount of posts displayed per listing page.
   },
   plugins: [

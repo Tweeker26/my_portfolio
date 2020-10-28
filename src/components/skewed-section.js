@@ -13,7 +13,7 @@ const StyledSkewedSection = styled.section`
     margin: 0 auto;
     padding: 1.5em;
     position: relative;
-    
+
     /* uncomment for debuggind purposes */
     /* border: 2px dashed #fff8; */
   }

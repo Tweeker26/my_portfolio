@@ -21,7 +21,7 @@ const Tags = () => {
   const tagAmount = {};
   const tags = data.allMarkdownRemark
     ? data.allMarkdownRemark.edges.reduce((acc, curr) => {
-        curr.node.frontmatter.tags.map(tag => {
+        curr.node.frontmatter.tags.map((tag) => {
           if (!acc.includes(tag)) {
             acc.push(tag);
             tagAmount[tag] = 1;
@@ -37,9 +37,9 @@ const Tags = () => {
 
   React.useEffect(() => {
     let findExistingTags = {};
-    alphabet.forEach(char => {
+    alphabet.forEach((char) => {
       let regex = new RegExp(`^${char}`, 'i');
-      let filtered = tags.filter(tag => {
+      let filtered = tags.filter((tag) => {
         return regex.test(tag);
       });
 
@@ -56,7 +56,7 @@ const Tags = () => {
     let elem = (
       <React.Fragment>
         <h2>{key}</h2>
-        {existingTags[key].map(tag => (
+        {existingTags[key].map((tag) => (
           <span key={tag}>
             {tag}
             <Tag number={tagAmount[tag]} />
