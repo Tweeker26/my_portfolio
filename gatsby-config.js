@@ -3,14 +3,14 @@ module.exports = {
   siteMetadata: {
     title: 'Level 2',
     titleTemplate: '%s · Level 2',
-    image: '/images/logo.png',
+    image: '/images/logo.svg',
     author: 'Ivan Vinogradov',
     description: 'Portfolio with Gatsby',
     url: 'https://github.com/Tweeker26/my_portfolio',
     paginationPageSize: 4, // Amount of posts displayed per listing page.
   },
   plugins: [
-    `gatsby-plugin-stylus`,
+    `gatsby-plugin-sass`,
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
@@ -80,13 +80,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `GatsbyJS`,
+        short_name: `GatsbyJS`,
         start_url: `/`,
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/logo.png`, // This path is relative to the root of the site.
+        icon: `src/images/maskable_icon.png`, // This path is relative to the root of the site.
       },
     },
     {

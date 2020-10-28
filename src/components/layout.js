@@ -4,7 +4,7 @@ import { fas } from '@fortawesome/free-solid-svg-icons';
 import { graphql, useStaticQuery } from 'gatsby';
 import PropTypes from 'prop-types';
 import React from 'react';
-import '../styles/index.styl';
+import '../styles/index.scss';
 import Footer from './footer';
 import Header from './header';
 import NavigationBar from './nagivation-bar';
