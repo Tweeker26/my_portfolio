@@ -41,6 +41,11 @@ const Layout = ({ children, menuLinks }) => {
 
 Layout.propTypes = {
   children: PropTypes.node.isRequired,
+  menuLinks: PropTypes.arrayOf(PropTypes.shape({
+    name: PropTypes.string.isRequired,
+    link: PropTypes.string.isRequired,
+    icon: PropTypes.string.isRequired,
+  })),
 };
 
 export default Layout;

@@ -1,5 +1,6 @@
 import styled from '@emotion/styled';
 import React from 'react';
+import { graphql } from 'gatsby';
 import Layout from '../components/layout';
 import ProjectList from '../components/project-list';
 import SEO from '../components/seo';
@@ -7,6 +8,7 @@ import { blogMenuLinks } from '../components/_config/menu-links';
 import { StyledH1 } from '../components/_shared/styled-headings';
 import { StyledFullHeightSection } from '../components/_shared/styled-section';
 import { StyledSeparator } from '../components/_shared/styled-separator';
+import PropTypes from 'prop-types';
 
 const StyledProjectsH1 = styled(StyledH1)`
   margin-top: 3rem;
@@ -16,7 +18,8 @@ const Projects = ({
     allMarkdownRemark: { nodes },
   },
 }) => {
-  console.log(nodes);
+  // console.log(nodes);
+
   return (
     <Layout menuLinks={blogMenuLinks}>
       <SEO title="Projects" />
@@ -27,6 +30,12 @@ const Projects = ({
       </StyledFullHeightSection>
     </Layout>
   );
+};
+
+Projects.propTypes = {
+  data: PropTypes.shape({
+    allMarkdownRemark: PropTypes.shape()
+  }),
 };
 
 export default Projects;

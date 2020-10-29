@@ -1,8 +1,8 @@
 module.exports = {
   pathPrefix: '/gatsby-starter-level-2',
   siteMetadata: {
-    title: 'Level 2',
-    titleTemplate: '%s · Level 2',
+    title: 'Portfolio',
+    titleTemplate: '%s · Ivan Vinogradov',
     image: '/images/logo.svg',
     author: 'Ivan Vinogradov',
     description: 'Portfolio with Gatsby',
