@@ -4,7 +4,7 @@ date: '2019-12-22'
 title: 'Coffee Shop'
 cover_image: './images/coffee.jpg'
 repo_link: 'https://github.com/Tweeker26/gatsby-coffee-project'
-demo_link: 'https://focused-swirles-6ac00f.netlify.app/'
+demo_link: 'https://joe-coffee-shop.netlify.app/'
 techs: ['Gatsby', 'React', 'Snipcart']
 ---
 

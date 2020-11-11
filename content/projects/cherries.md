@@ -4,7 +4,7 @@ date: '2019-12-26'
 title: 'Cherries'
 cover_image: './images/cherries.jpg'
 repo_link: 'https://github.com/Tweeker26/cherry_dropper'
-demo_link: 'https://flamboyant-babbage-c6043e.netlify.app/'
+demo_link: 'https://cherry-dropper.netlify.app/'
 techs: ['JavaScript', 'CSS', 'HTML', 'Canvas']
 ---
 

@@ -25,6 +25,10 @@ const StyledContainer = styled.div`
 `;
 const StyledHomeLink = styled(Link)`
   text-decoration: none;
+
+  &.current path {
+    fill: rgb(77, 149, 84);
+  }
 `;
 const StyledLogo = styled(Logo)`
   width: var(--header-height);
@@ -79,7 +83,7 @@ const StyledNavLink = styled(Link)`
 const Header = ({ menuLinks }) => (
   <StyledHeader>
     <StyledContainer>
-      <StyledHomeLink title="logo" to="/">
+      <StyledHomeLink title="logo" to="/" activeClassName='current'>
         <StyledLogo />
       </StyledHomeLink>
       <StyledNav>
